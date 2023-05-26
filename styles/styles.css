@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gotham Pro',sans-serif ;
+    text-align: center;
+    
+    
+}
+
+
+/* FONTS */
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: local('Gotham Pro Light'), local('GothamPro-Light'),
+        url("../fonts/GothamPro-Light.woff2") format('woff2'),
+        url("../fonts/GothamPro-Light.woff") format('woff'),
+        url("../fonts/GothamPro-Light.ttf") format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+/* FIN FONTS */  
+
+
+/* header */
+
+header{
+    height: 100px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 3%;
+    border-bottom: 1px solid rgb(86, 85, 85);
+    position: fixed;
+    top: 0; 
+    z-index: 900;
+   
+}
+
+header a img{
+    height: 99px;
+
+}
+
+.nav-color{
+    background-color: white;
+}
+
+
+.icon-list{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-style: none;
+    
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul li:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+
+
+/* FIN header */
+
+
+
+/* main */
+
+/*SECTION NOSOTROS*/
+
+main{   
+   padding-top: 101px;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 4.5rem;
+    padding: 50px;
+    padding-top: 135px;
+    font-weight: 800;
+    
+    color:blueviolet;
+    
+}
+
+#nosotros{
+    margin-bottom: 120px;
+    
+}
+
+#nosotros .banner img{
+    
+    height: 90vh;
+    object-fit: cover;
+    margin-right: 80px;
+    
+    
+}
+#nosotros .banner{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+
+
+}
+
+#nosotros h2{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.contenedorarea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100vw;
+
+}
+
+.contenedorarea p{
+    max-width: 700px;
+    font-size: 1.8rem;
+    padding:20px 40px;
+    
+   
+}
+
+.fotoequipo{
+    width: 40vw;
+    min-width: 500px;
+    box-shadow: 10px 10px 30px 0 black;
+    object-fit:cover;
+    margin-top: 30px;
+}
+
+/* FIN SECTION NOSOTROS */
+
+
+
+/* SECTION EXPONENCIARTE */
+
+#exponenciarte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 135px;
+    border-top: 1px solid grey;
+    gap: 3rem;
+
+}
+
+#exponenciarte h2{
+    font-size: 4rem;
+    
+    
+}
+#exponenciarte .contenedorarea p{
+    padding:20px 40px;
+
+}
+
+#exponenciarte h2 span{
+    color:rgb(244, 3, 207)
+
+}
+
+
+
+.exponenciarte ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    list-style: none;
+    gap: 2.2rem;
+
+}
+
+.exponenciarte ul li{
+    font-size: 2rem;
+    color:rgb(244, 3, 207);
+    font-weight: bolder;
+  
+}
+
+.exponenciarte ul a{
+    text-decoration: none;
+
+}
+
+.exponenciarte ul li:hover{
+    color: blueviolet;
+    text-decoration: underline;
+
+}
+
+.inscripcion{
+    margin-bottom: 300px;
+    display: block;
+    padding: 20px 20px;
+    font-size: 4rem ;
+    font-weight: bolder;
+    color:rgb(68, 17, 116);
+    text-decoration: none;
+    background-color:rgb(244, 3, 207); ;
+    align-content: center;
+
+}
+
+.inscripcion1{
+    display: flex;
+    justify-content: center;
+
+}
+
+.inscripcion:hover{
+    color: rgb(244, 3, 207);
+    background-color:rgb(68, 17, 116);
+    font-size: 4.2rem;
+    transition: 1s;
+    
+}
+
+/* page expo-disciplinas */
+
+.iframe-yt{
+    width: 50%;
+    height: 60vh;
+    margin-bottom: 50px;
+ 
+}
+
+.expo-pages ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    list-style: none;
+    gap: 2.2rem;
+
+}
+
+.expo-pages ul li{
+    font-size: 2rem;
+    color:rgb(244, 3, 207);
+    font-weight: bolder;
+  
+}
+
+.expo-pages ul a{
+    text-decoration: none;
+
+}
+
+.expo-pages ul li:hover{
+    color: blueviolet;
+    text-decoration: underline;
+
+}
+
+/* page expo-inscripcion */
+
+.inscripcion-formulario{
+    width: 85vw;
+    margin-bottom: 100px;
+
+}
+
+.arte{
+    color: rgb(244, 3, 207);
+}
+
+/* FIN SECTION EXPONENCIARTE   */
+
+
+
+/* SECTION EFEMERIDES */
+
+#efemerides-container{
+    border-top: 1px solid grey;
+    margin-bottom: 300px;
+}
+
+/* FIN SECTION EFEMERIDES */
+
+
+
+/* page contacto */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    font-size: 1.5rem;
+    margin: auto;
+    margin-bottom: 150px;    
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+
+}
+
+.form__div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+    
+}
+
+.form input{
+    border: none;
+    border-bottom: 1px solid rgb(244, 3, 207);
+    padding: 15px;
+    width: 100%;
+ 
+}
+
+.form textarea{
+    border: none;
+    border-bottom: 1px solid rgb(244, 3, 207);
+    height: 150px;
+    text-align: start;
+    padding: 15px;
+    
+}
+
+.form__button{
+    font-size: 2rem;
+    padding: 20px;
+    color:rgb(244, 3, 207);
+    font-weight: bolder;
+    background-color: white;
+    border: 2px solid rgb(68, 17, 116);
+    cursor: pointer;
+
+}
+
+.form__button:hover{
+    background-color: rgb(68, 17, 116);
+    border: 2px solid rgb(244, 3, 207);
+    
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+
+
+
+/* footer */
+
+footer img{
+    width: 70px;
+        
+}
+
+footer{
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 2 8fr 2fr;
+  background-color: grey;
+  gap: 50px;
+  padding-top: 75px;
+
+}
+
+.footer__grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    gap: 15px;
+    padding: 15px;
+    align-items: center;
+
+}
+
+
+.direction{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+   
+    justify-self: center;
+
+}
+
+
+.rrss{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 30%;
+    justify-self: center;
+
+}
+
+footer h3{
+    font-size: 2rem;
+
+}
+
+footer p{
+    font-size: 1rem;
+    
+
+}
+.direction span{
+    font-size: 1.2rem;
+    
+
+}
+
+.mapa{
+    
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    
+}
+
+.mapa-container{
+    border-color: 30px solid rgb(244, 3, 207);
+    justify-self: center;
+    
+}
+
+
+.direction a{
+    color:black;
+
+}
+
+.firma a{
+    text-decoration: none;
+    border-bottom: 1px solid rgb(244, 3, 207);
+    color: black;
+
+}
+
+
+
+
+
+
+/* FIN footer */
+
+/*  RESPONSIVE @media */
+
+@media only screen and (max-width: 768px){
+   
+    #exponenciarte ul{
+        flex-direction: column;
+
+    }
+
+    footer .footer__grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-content: center;
+        gap: 15px;
+        padding: 15px;
+        align-items: center;
+    }
+
+    .iframe-yt{
+        width: 80%;
+        height: 60vh;
+        margin-bottom: 50px;
+     
+    }
+    
+}
